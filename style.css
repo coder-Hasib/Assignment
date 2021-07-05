@@ -1,3 +1,8 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
 .short-color{
     color: orange
 }
@@ -7,9 +12,58 @@
     font-weight: 700;
     border-radius: 30px;
     background-image: linear-gradient(to left,#f13a02,#f8ae25);
-    padding: 13px;
-    margin-top: 
+    padding: 13px 35px;
+    margin-top: 10px
 }
-section{
+.main-container{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-bottom: 5px;
     display: flex;
+    padding: 25px;
+}
+.sec-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(images/shapes/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.half-dev{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-dev img{
+    width: 80%;
+    
+}
+.second-half{
+    width: 50%;
+}
+.card{
+    display: flex;
+justify-content: center;
+margin-bottom: 60px;
+width: 1150px;
+padding-left: 99px;
+}
+.card div{
+    padding: 12px;
+    margin-right: 28px;
+    padding-left: ;
+    border-radius: 13px;
+    border: 5px solid #f0eaead3;
+    box-shadow: 3px 3px 3px 3px #e4e3e3; 
+    
+    
+}
+.card div img{
+    max-width: 100%;
+    max-height: 100%;
+margin-left: 1px
+
+ 
 }
