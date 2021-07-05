@@ -1,0 +1,15 @@
+.short-color{
+    color: orange
+}
+.link-btn{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    border-radius: 30px;
+    background-image: linear-gradient(to left,#f13a02,#f8ae25);
+    padding: 13px;
+    margin-top: 
+}
+section{
+    display: flex;
+}
