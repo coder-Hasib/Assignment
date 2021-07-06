@@ -3,8 +3,30 @@ body {
   padding: 0;
 }
 
+.navbar{
+  background-color: #dd2f2f;
+  padding: 10px 10px;
+  border-radius: 10px;
+  margin: 6px 0;
+}
+.navbar li{
+display: inline;
+list-style: none; 
+}
+.navbar li a {
+  align-items: center;
+  padding: 10px 9px;
+  margin: 10px 40px;
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+}
+
 .short-color {
   color: orange;
+}
+.short-color-2{
+  color: #7a7474;
 }
 .link-btn {
   text-decoration: none;
@@ -21,7 +43,10 @@ body {
   background-position: left;
   display: flex;
   padding: 25px;
+  font-size: larger;
+  
 }
+
 .sec-container {
   display: flex;
   align-items: center;
